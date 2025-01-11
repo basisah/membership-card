@@ -2,7 +2,7 @@ import json
 import os
 import zipfile
 from jinja2 import Template
-from passbook.modsource passbook-env/bin/activateels import Pass, Barcode
+from passbook import Pass, Barcode
 
 # Define member data
 members = [
