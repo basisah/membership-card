@@ -1,0 +1,15 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.local.ubsa.membership",
+    "serialNumber": "{{ serial_number }}",
+    "teamIdentifier": "LOCAL",
+    "organizationName": "UBSA",
+    "description": "UBSA Membership Card",
+    "barcode": {
+      "format": "PKBarcodeFormatQR",
+      "message": "{{ membership_number }}|{{ name }}|{{ nsid }}",
+      "messageEncoding": "utf-8"
+    },
+    "foregroundColor": "rgb(255,255,255)",
+    "backgroundColor": "rgb(0,0,0)"
+  }
