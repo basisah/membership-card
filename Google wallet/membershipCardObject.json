@@ -1,0 +1,62 @@
+{
+    "id": "ISSUER_ID.OBJECT_ID",
+    "classId": "ISSUER_ID.GENERIC_CLASS_ID",
+    "logo": {
+      "sourceUri": {
+        "uri": "https://storage.googleapis.com/wallet-lab-tools-codelab-artifacts-public/pass_google_logo.jpg"
+      },
+      "contentDescription": {
+        "defaultValue": {
+          "language": "en-US",
+          "value": "LOGO_IMAGE_DESCRIPTION"
+        }
+      }
+    },
+    "cardTitle": {
+      "defaultValue": {
+        "language": "en-US",
+        "value": "UBSA Membership card"
+      }
+    },
+    "subheader": {
+      "defaultValue": {
+        "language": "en-US",
+        "value": "Member Name"
+      }
+    },
+    "header": {
+      "defaultValue": {
+        "language": "en-US",
+        "value": "Alex McJacobs"
+      }
+    },
+    "textModulesData": [
+      {
+        "id": "member_id",
+        "header": "Member ID",
+        "body": "1112"
+      },
+      {
+        "id": "university",
+        "header": "University",
+        "body": "USASK"
+      }
+    ],
+    "barcode": {
+      "type": "CODE_39",
+      "value": "BARCODE_VALUE",
+      "alternateText": "Bar Code"
+    },
+    "hexBackgroundColor": "#2e8e6e",
+    "heroImage": {
+      "sourceUri": {
+        "uri": "https://drive.google.com/file/d/1a3hNSKOHplz2t75GlOc6eDypgdvj5eQk/view?usp=drive_link"
+      },
+      "contentDescription": {
+        "defaultValue": {
+          "language": "en-US",
+          "value": "HERO_IMAGE_DESCRIPTION"
+        }
+      }
+    }
+  }
